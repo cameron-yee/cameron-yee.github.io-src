@@ -34,4 +34,19 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME='pelican-themes/attila'
+THEME='attila-instance'
+
+AUTHORS_BIO = {
+  "cameron": {
+    "name": "Cameron Yee",
+    "cover": "https://arulrajnet.github.io/attila-demo/assets/images/avatar.png",
+    "image": "https://arulrajnet.github.io/attila-demo/assets/images/avatar.png",
+    "website": "https://cameron-yee.github.io",
+    "location": "Colorado Springs, CO",
+    "bio": "This is the place for a small biography with max 200 characters. Well, now 100 are left. Cool, hugh?"
+  }
+}
+
+ARTICLE_URL = '{slug}.html'
+PAGE_URL = 'pages/{slug}.html'
+
