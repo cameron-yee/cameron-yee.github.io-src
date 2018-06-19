@@ -47,6 +47,7 @@ AUTHORS_BIO = {
   }
 }
 
-ARTICLE_URL = '{slug}.html'
-PAGE_URL = 'pages/{slug}.html'
-
+PAGE_PATHS = ['pages','python','javascript']
+ARTICLE_URL = '{slug}'
+PAGE_URL = '{slug}'
+#CATEGORY_URL = 'category/{slug}'
