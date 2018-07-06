@@ -1,7 +1,6 @@
 Title: About Me
 Date: 2018-03-09 01:09
 Modified: 2018-03-09 01:09
-Category: Python
 Tags: pelican, publishing
 Slug: about
 Authors: Cameron Yee

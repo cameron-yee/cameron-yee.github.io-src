@@ -3,8 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Cameron Yee'
-SITENAME = 'Canvas LMS API Blog'
-SITEURL = ''
+SITENAME = 'Upwards and Onwards'
+SITESUBTITLE = 'So you can waste your time in a fun way'
+SITEURL = 'https://cameron-yee.github.io'
 
 PATH = 'content'
 
@@ -47,7 +48,6 @@ AUTHORS_BIO = {
   }
 }
 
-PAGE_PATHS = ['pages','python','javascript']
 ARTICLE_URL = '{slug}'
-PAGE_URL = '{slug}'
-#CATEGORY_URL = 'category/{slug}'
+PAGE_URL = 'pages/{slug}'
+CATEGORY_URL = 'category/{slug}'.lower()
